@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Dashboard</title>
+    <link rel="stylesheet" href="dash.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <button><a href="index.html"><img src="back arrow.jpg" alt="" height="30px" width="30px"></a></button>
+    <div class="dashboard">
+        <h1>Sales Dashboard</h1>
+
+        
+        <div class="container">
+            <div class="cont" id="total-sales">
+                <h3>Total Sales</h3>
+                <p>$0</p>
+            </div>
+            <div class="cont" id="num-customers">
+                <h3>Number of Customers</h3>
+                
+                <p>0</p>
+            </div>
+        </div>
+        
+    
+        <div class="chart-container">
+            <h2>Most Ordered Food Items</h2>
+            <h3>mix food</h3>
+            <h3>coke</h3>
+            <h3>sausage</h3>
+            <h3>friut2</h3>
+            <h3>fruit</h3>
+            <h3>coke</h3>
+            <canvas id="foodChart"></canvas>
+        </div>
+    </div>
+
+    <script src="dash.js"></script>
+</body>
+</html>

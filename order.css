@@ -1,0 +1,155 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+
+.table-section{
+    overflow: auto;
+      height: 700px;
+      width: 800px;
+     
+   }
+   .table{
+     table-layout: fixed;
+      height: 700px;
+      width: 800px;
+      margin:50px;
+      border-collapse: collapse; 
+   }
+   .table h2{
+    
+        color: crimson;
+        background: #d6d4d4;
+    
+   }
+   
+      
+   .thead th{
+      position: sticky;
+      top: 0;
+      background: #d6d4d4;
+      color: crimson;
+      font-size: 15px;
+      gap: 50px;
+      
+   }
+   
+.th ,td{
+    border-bottom: 1px  solid #dddddd;
+    padding: 10px 20px;
+ }
+ td img{
+    height: 50px;
+ width: 110px;
+ object-fit: cover;
+ border-radius: 10px;
+ border:  2px solid silver;
+ }
+ 
+ tr:hover td{
+    color: coral;
+    cursor: pointer;
+    background: #fff
+ }
+ .cart-page .thead th{
+      position: sticky;
+      top: 0;
+      background: #d6d4d4;
+      color: crimson;
+      font-size: 15px;
+      gap: 50px;
+      
+   }
+   
+.cart-page .th ,td{
+    border-bottom: 1px  solid #dddddd;
+    padding: 10px 20px;
+ }
+ .cart-page.td img{
+    height: 50px;
+ width: 110px;
+ object-fit: cover;
+ border-radius: 10px;
+ border:  2px solid silver
+ }
+ #cart-page{
+   background: #dddddd;
+   margin: 40px 10px;
+   margin-right: 50px;
+   padding: 20px 30px;
+   padding-bottom: 30px;
+   position: relative;
+ }
+ #cart-tittle{
+   font-size: 30px;
+   margin: 0;
+   color: indianred;
+ }
+ #cart-page table{
+    width: 100px;
+    margin-top: 20px;
+    text-align: center;
+ }
+ #cart-page table thead td{
+   font-size: 25px;
+   padding-bottom: 10px;
+ }
+#m-total-amount{
+display: none;
+ }
+ #cart-page table tbody td{
+    padding: 10px 0;
+    font-size: 20px;
+ }
+ #cart-page table tbody button{
+   outline: none;
+   border: none;
+   font-size: 14px;
+   background: lightcoral;
+   color: #fff;
+   border-radius: 2px;
+   margin: 0 5px;
+   cursor: pointer;
+ }
+ #checkout{
+   text-align: center;
+   margin: 40px auto;
+   border-radius: 2px;
+   background: #fff;
+   padding: 10px 20px;
+ }
+ #checkout p{
+   margin: 15px 0;
+   float: left;
+ }
+ #total-item,#total-price{
+font-size: 20px;
+color: indianred;
+ }
+
+ @media only screen and (max-width:500px){
+   
+.table-section{
+   overflow: auto;
+     height: 300px;
+     width: 300px;
+    
+  }
+ }
+ 
+ 
+ 
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

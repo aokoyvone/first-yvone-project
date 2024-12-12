@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="dash.js"></script>
+    <link rel="stylesheet" href="Admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <button><a href="index.html"><img src="back arrow.jpg" alt="" height="30px" width="30px"></a></button>
+     
+    <form method="post"   action="admin 1.php">
+    <div class="nav">
+    <div class="dashboard">
+        <h1>Admin's Dashboard</h1> 
+        <div class="container">
+            <div class="cont" id="total-sales">
+                <h3>Total Sales</h3>
+                <p>$25000</p>
+            </div>
+            <div class="cont" id="num-customers">
+                <h2>Number of Customers</h2>
+                <p>50</p>
+            </div>
+        </div>
+        <div class="table-section">
+            <table>
+                <h2>Most ordered food</h2>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Picture</th>
+                        <th>Food</th>
+                        <th>Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><img src="food 3.jpg" alt=""></td>
+                        <td>Mix vege</td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><img src="food2.jpg" alt=""></td>
+                        <td>Pilau</td>
+                        <td>36</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><img src="coke.jpg" alt=""></td>
+                        <td>Coke</td>
+                        <td>33</td>
+                    </tr> 
+                    <tr>
+                        <td>4</td>
+                        <td><img src="juice.jpg" alt=""></td>
+                        <td>Milky juice</td>
+                        <td>30</td>
+                    </tr> 
+                    <tr>
+                        <td>5</td>
+                        <td><img src="snac 1.jpg" alt=""></td>
+                        <td>Cherry</td>
+                        <td>28</td>
+                        
+                    </tr>
+                     <tr>
+                        <td>6</td>
+                        <td><img src="sausage.jpg" alt=""></td>
+                        <td>Sausage</td>
+                        <td>20</td>
+
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td><img src="food 10.jpg" alt=""></td>
+                        <td>mix food</td>
+                        <td>19</td>
+                       
+                     <tr>
+                        <td>8</td>
+                        <td><img src="fruits.jpg" alt=""></td>
+                        <td>Chicken curry</td>
+                        <td>16</td>
+                        
+                    </tr> <tr>
+                        <td>9</td>
+                        <td><img src="vege soup.jpg" alt=""></td>
+                        <td>vegetable soup</td>
+                        <td>15</td>
+ 
+                    </tr>
+                   
+                     <tr>
+                        <td>10</td>
+                        <td><img src="black chocolate cake.jpg" alt=""></td>
+                        <td>Black chocolate</td>
+                        <td>10</td>
+                      
+                    </tr> 
+    </td>
+    </tbody>
+    </table>
+    </div> 
+    </div>
+    </div>
+    <h2>Customers Feedback </h2>
+
+    <form id="feedbackForm" onsubmit="addFeedback(); return false;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" required>
+
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" rows="3" required></textarea>
+
+        <button type="submit">Add Feedback</button>
+    </form>
+    <table id="feedbackTable">
+        <thead>
+            <tr>
+                <th><input type="checkbox" onclick="toggleAll(this)"></th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Feedback</th>
+
+            </tr>
+        </thead>
+        <tbody>
+    
+        </tbody>
+    </table>
+    </form>
+
+    </body>
+    </html>  
+
+
+
+
+
+          
